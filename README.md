@@ -20,6 +20,8 @@ CREATE TABLE member (
 
 ## database 비번을 본인의 mysql 비밀번호로 수정해주세요 (mysql 비번 부분)
 
+### join_ok.php, login_ok.php 둘 다 수정하셔야 합니다.
+
 ```php
 $conn = mysqli_connect('localhost', 'root', 'mysql비번', 'user');
 ```
