@@ -10,7 +10,9 @@ $join_id = $_POST['join_id'];
 $join_name = $_POST['join_name'];
 $join_pw = $_POST['join_pw'];
 
+
 $conn = mysqli_connect('localhost', 'root', 'mysql비번', 'user');
+
 
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
